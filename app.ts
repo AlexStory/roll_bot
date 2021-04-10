@@ -91,4 +91,5 @@ function roll(input: string) {
   const n = parseFloat(input)
   const die = new Dice(n)
   const result = die.roll()
+  return result
 }
