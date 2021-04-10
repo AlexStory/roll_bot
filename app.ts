@@ -5,7 +5,7 @@ import {
 } from "https://deno.land/x/sift@0.1.7/mod.ts";
 
 import nacl from "https://cdn.skypack.dev/tweetnacl@v1.0.3";
-import { Dice } from 'https://github.com/alexstory/dice-roller/mod.ts';
+import { Dice } from 'https://denopkg.com/alexstory/dice-roller/mod.ts';
 
 serve({
   "/": home,
